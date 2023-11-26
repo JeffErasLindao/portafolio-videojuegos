@@ -1,59 +1,4 @@
-<!doctype html>
-<html lang="en">
-
-<head>
-  <meta charset="UTF-8" />
-  <link rel="icon" type="image/svg+xml" href="/portafolio-videojuegos/vite.svg" />
-  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-  <link href="@assets/img/favicon.png" rel="icon">
-  <link href="@assets/img/apple-touch-icon.png" rel="apple-touch-icon">
-
-  <!-- Google Fonts -->
-  <link
-    href="https://fonts.googleapis.com/css?family=Open+Sans:300,300i,400,400i,600,600i,700,700i|Raleway:300,300i,400,400i,500,500i,600,600i,700,700i|Poppins:300,300i,400,400i,500,500i,600,600i,700,700i"
-    rel="stylesheet">
-
-  <!-- Vendor CSS Files -->
-
-
-
-
-
-
-
-  <!-- Template Main CSS File -->
-
-
-  <title>Vite + Vue</title>
-
-  <link rel="stylesheet" crossorigin href="/portafolio-videojuegos/assets/index-u6yjFBso.css">
-</head>
-
-<body>
-
-  <header id="header" class="d-flex flex-column justify-content-center">
-
-    <nav id="navbar" class="navbar nav-menu">
-      <ul>
-        <li><a href="#hero" class="nav-link scrollto active"><i class="bx bx-home"></i> <span>Home</span></a></li>
-        <li><a href="#about" class="nav-link scrollto"><i class="bx bx-user"></i> <span>Nosotros</span></a></li>
-        <li><a href="#prototipo" class="nav-link scrollto"><i class="bx bx-file-blank"></i> <span>Prototipo</span></a>
-        </li>
-        <li><a href="#portfolio" class="nav-link scrollto"><i class="bx bx-book-content"></i> <span>Portfolio</span></a>
-        </li>
-        <li><a href="#contact" class="nav-link scrollto"><i class="bx bx-envelope"></i> <span>Contacto</span></a></li>
-      </ul>
-    </nav><!-- .nav-menu -->
-
-  </header><!-- End Header -->
-
-  <section id="hero" class="d-flex flex-column justify-content-center">
-    <div class="container" data-aos="zoom-in" data-aos-delay="100">
-      <h1>DESARROLLO DE VIDEO JUEGOS</h1>
-      <!-- <p>I'm <span class="typed" data-typed-items="Designer, Developer, Freelancer, Photographer"></span></p> -->
-    </div>
-  </section>
-
+<template>
   <main>
 
     <!-- ======= NOSOTROS ======= -->
@@ -182,9 +127,6 @@
 
     <section id="prototipo" class="prototipo">
 
-
-
-
       <div class="container" data-aos="fade-up">
         <section id="facts" class="facts">
           <div class="container" data-aos="fade-up">
@@ -216,15 +158,9 @@
 
           </div>
         </section><!-- End PROTOTIPO -->
+
       </div>
-    </section>
-
-
-
-          </div>
-        </section><!-- End PROTOTIPO -->
-      </div>
-    </section>
+    </section><!-- End PROTOTIPO -->
 
     <!-- ======= PORTFOLIO ======= -->
     <section id="portfolio" class="portfolio section-bg">
@@ -238,7 +174,7 @@
 
         <div class="row">
           <div class="col-lg-12 d-flex justify-content-center" data-aos="fade-up" data-aos-delay="100">
-            <ul id="portfolio-flters">
+            <ul ref="portfolioFilters" id="portfolio-flters">
               <li data-filter="*" class="filter-active">MATRIZ DE IDEAS</li>
               <li data-filter=".filter-app">TOP IDEAS</li>
               <li data-filter=".filter-card">IDEA ELEGIDA</li>
@@ -246,7 +182,7 @@
           </div>
         </div>
 
-        <div class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
+        <div ref="portfolioContainer" class="row portfolio-container" data-aos="fade-up" data-aos-delay="200">
 
           <div class="col-lg-4 col-md-6 portfolio-item filter-app">
             <div class="portfolio-wrap">
@@ -255,8 +191,8 @@
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea1.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 1"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="App 1"><i class="bx bx-plus"></i></a>
                 </div>
               </div>
             </div>
@@ -269,8 +205,8 @@
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea2.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Web 3"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -284,8 +220,8 @@
                 <h4>App 2</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea3.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 2"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="App 2"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -299,8 +235,8 @@
                 <h4>Card 2</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea4.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 2"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Card 2"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -314,8 +250,8 @@
                 <h4>Web 2</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea5.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 2"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Web 2"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -329,8 +265,8 @@
                 <h4>App 3</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea6.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea6.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="App 3"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -344,8 +280,8 @@
                 <h4>Card 1</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea7.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 1"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea7.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Card 1"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -359,8 +295,8 @@
                 <h4>Card 3</h4>
                 <p>Card</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea8.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Card 3"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea8.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Card 3"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -374,8 +310,8 @@
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea9.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea9.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Web 3"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -389,8 +325,8 @@
                 <h4>Web 3</h4>
                 <p>Web</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea10.jpeg" data-gallery="portfolioGallery"
-                    class="portfolio-lightbox" title="Web 3"><i class="bx bx-plus"></i></a>
+                  <a href="@assets/ideas/idea10.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                    title="Web 3"><i class="bx bx-plus"></i></a>
 
                 </div>
               </div>
@@ -403,143 +339,83 @@
     </section><!-- End PORTFOLIO -->
 
 
-    <!-- ======= VALIDACIONES ======= -->
-    <section id="testimonials" class="testimonials section-bg">
+    <SeccionValidaciones />
+
+
+    <!-- ======= CONTACTO======= -->
+    <section id="contact" class="contact">
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>VALIDACIONES</h2>
+          <h2>INFORMACION DE CONTACTO</h2>
         </div>
 
-        <div class="testimonials-slider swiper" data-aos="fade-up" data-aos-delay="100">
-          <div class="swiper-wrapper">
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="@assets/img/testimonials/testimonials-1.jpg" class="testimonial-img" alt="">
-                <h3>Saul Goodman</h3>
-                <h4>Ceo &amp; Founder</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Proin iaculis purus consequat sem cure digni ssim donec porttitora entum suscipit rhoncus. Accusantium
-                  quam, ultricies eget id, aliquam eget nibh et. Maecen aliquam, risus at semper.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="@assets/img/testimonials/testimonials-2.jpg" class="testimonial-img" alt="">
-                <h3>Sara Wilsson</h3>
-                <h4>Designer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Export tempor illum tamen malis malis eram quae irure esse labore quem cillum quid cillum eram malis
-                  quorum velit fore eram velit sunt aliqua noster fugiat irure amet legam anim culpa.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="@assets/img/testimonials/testimonials-3.jpg" class="testimonial-img" alt="">
-                <h3>Jena Karlis</h3>
-                <h4>Store Owner</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Enim nisi quem export duis labore cillum quae magna enim sint quorum nulla quem veniam duis minim
-                  tempor
-                  labore quem eram duis noster aute amet eram fore quis sint minim.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="@assets/img/testimonials/testimonials-4.jpg" class="testimonial-img" alt="">
-                <h3>Matt Brandon</h3>
-                <h4>Freelancer</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Fugiat enim eram quae cillum dolore dolor amet nulla culpa multos export minim fugiat minim velit
-                  minim
-                  dolor enim duis veniam ipsum anim magna sunt elit fore quem dolore labore illum veniam.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-            <div class="swiper-slide">
-              <div class="testimonial-item">
-                <img src="@assets/img/testimonials/testimonials-5.jpg" class="testimonial-img" alt="">
-                <h3>John Larson</h3>
-                <h4>Entrepreneur</h4>
-                <p>
-                  <i class="bx bxs-quote-alt-left quote-icon-left"></i>
-                  Quis quorum aliqua sint quem legam fore sunt eram irure aliqua veniam tempor noster veniam enim culpa
-                  labore duis sunt culpa nulla illum cillum fugiat legam esse veniam culpa fore nisi cillum quid.
-                  <i class="bx bxs-quote-alt-right quote-icon-right"></i>
-                </p>
-              </div>
-            </div><!-- End testimonial item -->
-
-          </div>
-          <div class="swiper-pagination"></div>
+        <div class="col-lg-6">
+          <ul>
+            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+            <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
+          </ul>
         </div>
 
       </div>
-    </section><!--VALIDACIONES -->
-
-
-        <!-- ======= CONTACTO======= -->
-        <section id="contact" class="contact">
-          <div class="container" data-aos="fade-up">
-
-            <div class="section-title">
-              <h2>INFORMACION DE CONTACTO</h2>
-            </div>
-
-            <div class="col-lg-6">
-              <ul>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-                <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>email@example.com</span></li>
-              </ul>
-            </div>
-
-          </div>
-        </section><!-- End CONTACTO  -->
+    </section><!-- End CONTACTO  -->
 
 
   </main>
+</template>
+
+<script setup lang="js">
+import { on, select } from '@/utils'
+import { inject, onMounted, ref } from 'vue'
+import Isotope from 'isotope-layout'
+import SeccionValidaciones from '@/pages/BasePage/sections/SeccionValidaciones.vue'
+
+const AOS = inject('aos')
+
+/**
+ * @type {import('vue').Ref<HTMLDivElement>}
+ */
+const portfolioContainer = ref()
+
+/**
+ * @type {import('vue').Ref<HTMLLIElement>}
+ */
+const portfolioFilters = ref()
+
+const mountPortfolio = () => {
+  const portfolioIsotope = new Isotope(portfolioContainer.value, {
+    itemSelector: '.portfolio-item',
+  })
+  let portfolioFilters = select('#portfolio-flters li', true);
+  on('click', '#portfolio-flters li', function (e) {
+    e.preventDefault();
+    portfolioFilters.forEach(function (el) {
+      el.classList.remove('filter-active');
+    });
+    this.classList.add('filter-active');
+
+    portfolioIsotope.arrange({
+      filter: this.getAttribute('data-filter')
+    });
+    portfolioIsotope.on('arrangeComplete', function () {
+      AOS.refresh()
+    });
+  }, true);
+}
+
+// const mount
+
+const mountTestimonials = () => {
+  const swiper = 2
+}
 
 
+onMounted(() => {
+  mountPortfolio()
+})
 
-
-
-
-  <footer>
-
-  </footer>
-
-
-  <!-- Vendor JS Files -->
-  <script src="@assets/vendor/purecounter/purecounter_vanilla.js"></script>
-  <script src="@assets/vendor/aos/aos.js"></script>
-  <script src="@assets/vendor/bootstrap/js/bootstrap.bundle.min.js"></script>
-  <script src="@assets/vendor/glightbox/js/glightbox.min.js"></script>
-  <script src="@assets/vendor/isotope-layout/isotope.pkgd.min.js"></script>
-  <script src="@assets/vendor/swiper/swiper-bundle.min.js"></script>
-  <script src="@assets/vendor/typed.js/typed.umd.js"></script>
-  <script src="@assets/vendor/waypoints/noframework.waypoints.js"></script>
-  <script src="@assets/vendor/php-email-form/validate.js"></script>
-  <script src="@assets/js/main.js"></script>
-</body>
-
-</html>
+</script>
