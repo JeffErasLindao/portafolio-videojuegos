@@ -7,9 +7,18 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy":"gh-pages -d dist"
+    "deploy": "gh-pages -d dist"
   },
   "dependencies": {
+    "@types/aos": "^3.0.7",
+    "@types/isotope-layout": "^3.0.12",
+    "@vue/tsconfig": "^0.4.0",
+    "aos": "^2.3.4",
+    "bootstrap": "^5.3.2",
+    "glightbox": "^3.2.0",
+    "isotope-layout": "^3.0.6",
+    "lightbox2": "^2.11.4",
+    "swiper": "^11.0.5",
     "vue": "^3.3.8"
   },
   "devDependencies": {
