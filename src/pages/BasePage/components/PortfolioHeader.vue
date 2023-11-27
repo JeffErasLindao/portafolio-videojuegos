@@ -24,7 +24,7 @@
         </li>
         <li>
           <a href="#contact" class="nav-link scrollto"
-            ><i class="bx bx-envelope"></i> <span>Contacto</span></a
+            ><i class="bx bx-game"></i> <span>Nuestro Juego</span></a
           >
         </li>
       </ul>

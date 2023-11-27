@@ -274,7 +274,7 @@ h6 {
 #hero {
   width: 100%;
   height: 100vh;
-  background: url("../gaming.jpg") top right no-repeat;
+  background: url("../skydesign.jpg") top right no-repeat;
   background-size: cover;
   position: relative;
 }
@@ -347,6 +347,11 @@ h6 {
     font-size: 20px;
     line-height: 24px;
   }
+}
+#hero img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ecuadra la imagen manteniendo su relación de aspecto */
 }
 
 /*--------------------------------------------------------------
@@ -1152,8 +1157,8 @@ section {
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #f7f8f9;
-  color: #45505b;
+  background: #003446;
+  color: #ffffff;
   font-size: 14px;
   text-align: center;
   padding: 30px 0;
@@ -1208,6 +1213,39 @@ section {
   font-size: 13px;
 }
 
-.carousel-inner{
+.carousel-inner {
+  text-align: center; /* Centrar el contenido */
+}
 
+.carousel-inner img {
+  width: 400px; /* Ancho fijo deseado */
+  height: 500px; /* Altura fija deseada */
+  object-fit:scale-down; /* Mantener la relación de aspecto y recortar si es necesario */
+}
+
+
+/* Estilo para el contenedor circular */
+.circle-container {
+  width: 150px; /* Ajusta el tamaño del círculo según tus necesidades */
+  height: 150px;
+  border-radius: 50%; /* Hace que el contenedor sea un círculo */
+  overflow: hidden; /* Oculta cualquier contenido que se desborde */
+  margin: auto; /* Centra el círculo horizontalmente */
+  margin-bottom: 20px;
+  
+}
+
+/* Estilo para la imagen dentro del círculo */
+.rounded-circle {
+  width: 100%;
+  height: 100%;
+  object-fit: cover; /* Ajusta la imagen sin distorsionar su relación de aspecto */
+}
+/* Estilo para el contenedor circular */
+
+.carousel-image {
+  max-width: 100%; /* Establecer un ancho máximo */
+  height: auto;    /* Mantener la proporción de la imagen */
+  /* También puedes agregar un máximo de altura si es necesario */
+  /* max-height: 200px; */
 }
