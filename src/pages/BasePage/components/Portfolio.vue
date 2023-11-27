@@ -359,7 +359,7 @@ Ingredientes Especiales: Algunos ingredientes tienen habilidades especiales. Por
   </main>
   <footer id="footer">
     <div class="container">
-      <h3>ESCUELA SUPERIROR POLITECNICA DEL LITORAL</h3>
+      <h3>ESCUELA SUPERIOR POLITECNICA DEL LITORAL</h3>
       <p>Proyecto desarrollado para la materia "Desarrollo de Video Juegos" dictado por Pdh. Javier Tibau</p>
 
       <div class="copyright">
