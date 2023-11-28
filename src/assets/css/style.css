@@ -1,3 +1,4 @@
+@import url('https://fonts.googleapis.com/css2?family=Luckiest+Guy&display=swap');
 /**
 * Template Name: MyResume
 * Updated: Nov 17 2023 with Bootstrap v5.3.2
@@ -9,6 +10,8 @@
 /*--------------------------------------------------------------
 # General
 --------------------------------------------------------------*/
+
+
 body {
   font-family: "Open Sans", sans-serif;
   color: #272829;
@@ -297,21 +300,22 @@ h6 {
 
 #hero h1 {
   margin: 0;
+  font-family: 'Luckiest Guy', cursive;
   font-size: 64px;
   font-weight: 700;
   line-height: 56px;
-  color: #000000;
+  color:#ffd700;
 }
 
 #hero p {
-  color: #45505b;
+  color: #eaeef1;
   margin: 15px 0 0 0;
   font-size: 26px;
   font-family: "Poppins", sans-serif;
 }
 
 #hero p span {
-  color: #0563bb;
+  color: rgb(255, 247, 0);
   letter-spacing: 1px;
 }
 
@@ -1249,3 +1253,54 @@ section {
   /* También puedes agregar un máximo de altura si es necesario */
   /* max-height: 200px; */
 }
+
+
+.light-box{
+  position: fixed;
+  top:0;
+  left:0;
+  background:rgba(0,0,0,.5);
+  transition: transform .3s ease-in-out;
+  width: 100%;
+  height:100vh;
+  z-index: 1000;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform:scale(0);
+  }
+  
+  .light-box img{
+  width:75vw;
+  max-height: 70vh;
+  }
+  
+  .light-box:target{
+  transform: scale(1);
+  }
+  
+  .close{
+  display: block;
+  position:absolute;
+  top:40px;
+  right: 40px;
+  background:#851919;
+  color:#FFFF;
+  text-decoration:none;
+  width: 40px;
+  height:40px;
+  border-radius: 50%
+  
+  }
+  
+  .next{
+  display:block;
+  background:#851919;
+  color:#FFFF;
+  width: 30px;
+  height:30px;
+  line-height:30px;
+  text-decoration: none;
+  text-align:center;
+  
+  }

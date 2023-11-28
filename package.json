@@ -19,6 +19,7 @@
     "isotope-layout": "^3.0.6",
     "lightbox2": "^2.11.4",
     "swiper": "^11.0.5",
+    "typed.js": "^2.1.0",
     "vue": "^3.3.8"
   },
   "devDependencies": {

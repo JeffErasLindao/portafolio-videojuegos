@@ -89,17 +89,6 @@
             <div class="col-lg-8 pt-4 pt-lg-0 content">
             <h3>ANDRES MOSCOSO ESQUIVEL - Estudiante de Ingenieria en Computación.</h3>
             <li><i class="bi bi-chevron-right"></i> <strong>Email:</strong> <span>aumoscos@espol.edu.ec</span></li>
-            <p class="fst-italic">
-              Biografia de Compañero2
-            </p>
-            <div class="row">
-
-              <div class="col-lg-6">
-                <p class="fst-italic">
-                  Pegar Foto
-                </p>
-              </div>
-            </div>
           </div><!-- FIN DE LUIS -->
         </div>
 
@@ -118,8 +107,10 @@
 
             <div class="section-title">
               <h2>PROTOTIPO</h2>
-              <p>Primera version del juego "BURGER"</p>
+              <p>Primera version del juego "SKY BURGER"</p>
             </div>
+
+            
 
 
             <div id="carouselExample" class="carousel slide" data-bs-ride="carousel">
@@ -178,8 +169,9 @@
                 <h4>App 1</h4>
                 <p>App</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
-                    title="App 1"><i class="bx bx-plus"></i></a>
+                <a href="@assets/ideas/idea1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox" title="App 3"><i class="bx bx-plus"></i></a>
+                  <a href="portfolio-details.html" class="portfolio-details-lightbox" data-glightbox="type: external" title="Portfolio Details"><i class="bx bx-link"></i></a>
+
                 </div>
               </div>
             </div>
@@ -333,21 +325,21 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-          <h2>SKY BURGER</h2>
-          <p>¡Bienvenido a "BurgerStack" - donde la emoción de Tetris se encuentra con la deliciosa creatividad de las hamburguesas! En este  juego, tu misión es construir las hamburguesas más deliciosas y altas que puedas, ¡mientras desafías tu destreza y velocidad!</p>
+        <h2><i class="fas fa-hamburger"></i> SKY BURGER</h2>
+          <p>¡Bienvenido a "Sky Burger" - donde la emoción de Tetris se encuentra con la deliciosa creatividad de las hamburguesas! En este  juego, tu misión es construir las hamburguesas más deliciosas y altas que puedas, ¡mientras desafías tu destreza y velocidad!</p>
         </div>
 
-          <h3>Objetivo del Juego:</h3>
+              <h3><i class="fas fa-bullseye"></i> Objetivo del Juego:</h3>
           <p> Tu misión es construir la hamburguesa perfecta. A medida que juegas, verás un contador en la parte superior que representa tu hambre creciente. Debes apilar ingredientes rápidamente para satisfacer tu apetito y mantener el contador bajo control. ¡Pero cuidado, la velocidad aumenta con el tiempo, así que mantente ágil!</p>
 
-          <h3>Mecánica del Juego:</h3>
+          <h3><i class="fas fa-gamepad"></i> Mecánica del Juego:</h3>
           <p>Ingredientes Descendentes: Desde la parte superior de la pantalla, caerán diversos ingredientes de hamburguesas, como pan, carne, queso, lechuga, tomate, y más. Utiliza las teclas de dirección para desplazar y rotar cada pieza a medida que desciende.
 
 Velocidad: Con el tiempo, la velocidad del juego puede ir aumentando, dependera de la dificultad, desafiándote a tomar decisiones rápidas y precisas. ¿Puedes mantener el ritmo y seguir construyendo hamburguesas perfectas a medida que la presión aumenta?
 
 Ingredientes Especiales: Algunos ingredientes tienen habilidades especiales. Por ejemplo, un ingrediente puede eliminar una fila completa o congelar el contador de hambre por un breve período. Aprende a aprovechar estas habilidades para alcanzar puntuaciones más altas.</p>
 
-        <h3>Desafíos y Logros:</h3>
+        <h3><i class="fas fa-trophy"></i> Desafíos y Logros:</h3>
         <p>A lo largo del juego, te enfrentarás a desafíos únicos que pondrán a prueba tu habilidad para construir hamburguesas en condiciones extraordinarias. Completa estos desafíos para desbloquear logros especiales y recompensas deliciosas, y lograr puntuaciones máximas.</p>  
 
         
@@ -381,6 +373,7 @@ import { on, select } from '@/utils'
 import { inject, onMounted, ref } from 'vue'
 import Isotope from 'isotope-layout'
 import SeccionValidaciones from '@/pages/BasePage/sections/SeccionValidaciones.vue'
+
 
 const AOS = inject('aos')
 
@@ -427,3 +420,9 @@ onMounted(() => {
 })
 
 </script>
+
+<style scoped>
+@import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
+
+/* Estilos específicos del componente */
+</style>
