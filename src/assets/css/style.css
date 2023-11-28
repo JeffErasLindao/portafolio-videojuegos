@@ -741,6 +741,9 @@ section {
 /*--------------------------------------------------------------
 # Portfolio Details
 --------------------------------------------------------------*/
+
+
+
 .portfolio-details {
   padding-top: 40px;
 }
@@ -1217,27 +1220,7 @@ section {
   font-size: 13px;
 }
 
-.carousel-inner {
-  text-align: center; /* Centrar el contenido */
-}
 
-.carousel-inner img {
-  width: 400px; /* Ancho fijo deseado */
-  height: 500px; /* Altura fija deseada */
-  object-fit:scale-down; /* Mantener la relación de aspecto y recortar si es necesario */
-}
-
-
-/* Estilo para el contenedor circular */
-.circle-container {
-  width: 150px; /* Ajusta el tamaño del círculo según tus necesidades */
-  height: 150px;
-  border-radius: 50%; /* Hace que el contenedor sea un círculo */
-  overflow: hidden; /* Oculta cualquier contenido que se desborde */
-  margin: auto; /* Centra el círculo horizontalmente */
-  margin-bottom: 20px;
-  
-}
 
 /* Estilo para la imagen dentro del círculo */
 .rounded-circle {
@@ -1247,12 +1230,6 @@ section {
 }
 /* Estilo para el contenedor circular */
 
-.carousel-image {
-  max-width: 100%; /* Establecer un ancho máximo */
-  height: auto;    /* Mantener la proporción de la imagen */
-  /* También puedes agregar un máximo de altura si es necesario */
-  /* max-height: 200px; */
-}
 
 
 .light-box{
@@ -1296,11 +1273,34 @@ section {
   .next{
   display:block;
   background:#851919;
-  color:#FFFF;
+  color:#000000;
   width: 30px;
   height:30px;
   line-height:30px;
   text-decoration: none;
   text-align:center;
   
+  }
+
+  .carousel2-inner {
+    text-align: center; /* Centrar el contenido */
+  }
+  
+  .carousel2-inner img {
+    width: 500px; /* Ancho fijo deseado */
+    height: 500px; /* Altura fija deseada */
+    object-fit:scale-down; /* Mantener la relación de aspecto y recortar si es necesario */
+  }
+  
+
+  
+  /* Estilo para el contenedor circular */
+  .circle2-container {
+    width: 150px; /* Ajusta el tamaño del círculo según tus necesidades */
+    height: 150px;
+    border-radius: 50%; /* Hace que el contenedor sea un círculo */
+    overflow: hidden; /* Oculta cualquier contenido que se desborde */
+    margin: auto; /* Centra el círculo horizontalmente */
+    margin-bottom: 20px;
+    
   }

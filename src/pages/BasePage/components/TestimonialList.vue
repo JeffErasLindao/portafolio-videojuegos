@@ -5,8 +5,8 @@
       data-aos="fade-up"
       data-aos-delay="100">
 <SwiperSlide>
-  <div class="carousel-inner">
-    <img src="@assets/img/testimonials/validacion1.png" class="d-block w-100 carousel-image" alt="">
+  <div class="carousel2-inner">
+    <img src="@assets/img/testimonials/validacion1.png" class="d-block w-100 carousel2-image" alt="">
     <h3>Manuel Martinez</h3>
     <h4>Entrevistado - Validador</h4>
     <p>
@@ -19,8 +19,8 @@
 
 
 <SwiperSlide>
-  <div class="carousel-inner">
-    <img src="@assets/img/testimonials/validacion2.png" class="d-block w-100 carousel-image" alt="">
+  <div class="carousel2-inner">
+    <img src="@assets/img/testimonials/validacion2.png" class="d-block w-100 carousel2-image" alt="">
     <h3>Yalile Pavon</h3>
      <h4>Entrevistado - Validador</h4>
     <p>
@@ -33,8 +33,8 @@
 
 
 <SwiperSlide>
-  <div class="carousel-inner">
-    <img src="@assets/img/testimonials/validacion3.png" class="d-block w-100 carousel-image" alt="">
+  <div class="carousel2-inner">
+    <img src="@assets/img/testimonials/validacion3.png" class="d-block w-100 carousel2-image" alt="">
     <h3>Joseph Morante</h3>
     <h4>Entrevistado - Validador</h4>
     <p>
@@ -46,8 +46,8 @@
 </SwiperSlide>
 
 <SwiperSlide>
-  <div class="carousel-inner">
-    <img src="@assets/img/testimonials/validacion4.png" class="d-block w-100 carousel-image" alt="">
+  <div class="carousel2-inner">
+    <img src="@assets/img/testimonials/validacion4.png" class="d-block w-100 carousel2-image" alt="">
     <h3>Joseph Morante</h3>
     <h4>Entrevistado - Validador</h4>
     <p>
@@ -59,8 +59,8 @@
 </SwiperSlide>
 
 <SwiperSlide>
-  <div class="carousel-inner">
-    <img src="@assets/img/testimonials/validacion5.png" class="d-block w-100 carousel-image" alt="">
+  <div class="carousel2-inner">
+    <img src="@assets/img/testimonials/validacion5.png" class="d-block w-100 carousel2-image" alt="">
     <h3>Joseph Morante</h3>
     <h4>Entrevistado - Validador</h4>
     <p>

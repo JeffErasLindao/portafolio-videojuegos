@@ -129,7 +129,7 @@
                 <span class="carousel-control-prev-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Previous</span>
               </button>
-              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next">
+              <button class="carousel-control-next" type="button" data-bs-target="#carouselExample" data-bs-slide="next" >
                 <span class="carousel-control-next-icon" aria-hidden="true"></span>
                 <span class="visually-hidden">Next</span>
               </button>
@@ -424,5 +424,5 @@ onMounted(() => {
 <style scoped>
 @import 'https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css';
 
-/* Estilos específicos del componente */
+
 </style>
