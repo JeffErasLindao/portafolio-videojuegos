@@ -166,10 +166,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea1.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 1</h4>
-                <p>App</p>
+                <h4>Idea 1</h4>
+                <p>Juego de 2 jugadores al estilo "Your Name"</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea1.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="App 1"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -181,10 +181,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea2.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Idea 2</h4>
+                <p>Juego en base a árboles</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea2.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Web 3"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -196,10 +196,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea3.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 2</h4>
-                <p>App</p>
+                <h4>Idea 3</h4>
+                <p>Juego de tetris de Hamburguesas</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea3.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="App 2"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -211,10 +211,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea4.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 2</h4>
-                <p>Card</p>
+                <h4>Idea 4</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea4.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Card 2"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -226,10 +226,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea5.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 2</h4>
-                <p>Web</p>
+                <h4>Idea 5</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea5.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Web 2"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -241,10 +241,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea6.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>App 3</h4>
-                <p>App</p>
+                <h4>Idea 6</h4>
+                <p>Juego RPG en una mazmorra</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea6.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="App 3"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -256,10 +256,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea7.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 1</h4>
-                <p>Card</p>
+                <h4>Idea 7</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea7.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Card 1"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -271,10 +271,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea8.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Card 3</h4>
-                <p>Card</p>
+                <h4>Idea 8</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea8.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Card 3"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -286,10 +286,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea9.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Idea 9</h4>
+                <p></p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea9.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Web 3"><i class="bx bx-plus"></i></a>
 
                 </div>
@@ -301,10 +301,10 @@
             <div class="portfolio-wrap">
               <img src="@assets/ideas/idea10.jpeg" class="img-fluid" alt="">
               <div class="portfolio-info">
-                <h4>Web 3</h4>
-                <p>Web</p>
+                <h4>Idea 10</h4>
+                <p>Laberinto</p>
                 <div class="portfolio-links">
-                  <a href="@assets/ideas/idea10.jpeg" data-gallery="portfolioGallery" class="portfolio-lightbox"
+                  <a href="#portfolio" data-gallery="portfolioGallery" class="portfolio-lightbox"
                     title="Web 3"><i class="bx bx-plus"></i>
                     </a>
 
