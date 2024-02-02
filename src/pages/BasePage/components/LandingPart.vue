@@ -1,7 +1,7 @@
 <template>
     <section id="hero" class="d-flex flex-column justify-content-center">
         <div class="container" data-aos="zoom-in" data-aos-delay="100">
-            <h1 >SKY BURGER</h1>
+            <h1 >BURGER BLOCKADE</h1>
              <p>Nuestro Juego <span class="typed" data-typed-items=", es Diversion!, es Entretenimiento!, es Experiencia!, es Pasión!, Próximamente!"></span></p>
         </div>
     </section>

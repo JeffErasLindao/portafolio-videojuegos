@@ -107,7 +107,7 @@
 
             <div class="section-title">
               <h2>PROTOTIPO</h2>
-              <p>Primera version del juego "SKY BURGER"</p>
+              <p>Primera version del juego "BURGER BLOCKADE"</p>
             </div>
 
             
@@ -325,8 +325,8 @@
       <div class="container" data-aos="fade-up">
 
         <div class="section-title">
-        <h2><i class="fas fa-hamburger"></i> SKY BURGER</h2>
-          <p>¡Bienvenido a "Sky Burger" - donde la emoción de Tetris se encuentra con la deliciosa creatividad de las hamburguesas! En este  juego, tu misión es construir las hamburguesas más deliciosas y altas que puedas, ¡mientras desafías tu destreza y velocidad!</p>
+        <h2><i class="fas fa-hamburger"></i> BURGER BLOCKADE</h2>
+          <p>¡Bienvenido a "Burger Blockade" - donde la emoción de Tetris se encuentra con la deliciosa creatividad de las hamburguesas! En este  juego, tu misión es construir las hamburguesas más deliciosas y altas que puedas, ¡mientras desafías tu destreza y velocidad!</p>
         </div>
 
               <h3><i class="fas fa-bullseye"></i> Objetivo del Juego:</h3>
